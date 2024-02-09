@@ -1,6 +1,6 @@
-<h2>Films</h2>
+<h2>Auteurs</h2>
 <ul>
-    {% for film in films %}
-        <li><a href="{{ url_for('main.film_detail', id=film.id) }}">{{ film.titre }}</a></li>
+    {% for auteur in auteurs %}
+        <li><a href="{{ url_for('main.auteur_detail', id=auteur.id) }}">{{ auteur.nom }}</a></li>
     {% endfor %}
 </ul>

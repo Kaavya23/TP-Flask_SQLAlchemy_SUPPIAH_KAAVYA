@@ -1,0 +1,7 @@
+<h2>Publier un livre par {{ auteur.nom }}</h2>
+<form method="post">
+  {{ form.hidden_tag() }} {{ form.titre.label }} {{ form.titre() }}<br />
+  {{ form.date_publication.label }} {{ form.date_publication() }}<br />
+  {{ form.genre.label }} {{ form.genre() }}<br />
+  {{ form.submit() }}
+</form>

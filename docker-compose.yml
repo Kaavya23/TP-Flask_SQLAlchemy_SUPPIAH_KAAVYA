@@ -1,3 +1,5 @@
+# SUPPIAH KAAVYA
+
 version: '3.8'
 services:
   web:
@@ -16,7 +18,7 @@ services:
     restart: always 
     environment:
       MYSQL_ROOT_PASSWORD: pass
-      MYSQL_DATABASE: critiques_de_films
+      MYSQL_DATABASE: bibliotheque
     volumes:
       - mysql_data:/var/lib/mysql
 
