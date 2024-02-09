@@ -1,13 +1,3 @@
-
-# from flask import Blueprint, render_template
-# from .forms import AjoutAuteur, LivreForm
-# # from werkzeug.security import generate_password_hash
-# from .database import db
-# from .models import *
-
-
-# main = Blueprint('main', __name__)
-
 from flask import Blueprint, jsonify, request
 from ..models import Chambre, Reservation, Client
 from .. import db
