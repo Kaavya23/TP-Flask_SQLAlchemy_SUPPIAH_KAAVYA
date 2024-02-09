@@ -22,7 +22,7 @@ def create_app():
 
     migrate.init_app(app, db)
 
-    from .routes import main
+    from .api.routes import main
     app.register_blueprint(main)
 
 
